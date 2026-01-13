@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Academic Programs - St. Michael's Academy</title>
+</head>
+<body>
+     <nav class="navbar">
+        <div class="navbar-container">
+            <div class="navbar-logo">
+                <img src="https://copilot.microsoft.com/th/id/BCO.bb05288b-3c17-4d2e-bdc4-60b40ced62fe.png" alt="">
+            </div>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul class="nav-menu" id="navMenu">
+                <li class="nav-item">
+                    <a href="academy.html" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="academy.html#grid1" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="programs.html" class="nav-link">Programs</a>
+                </li>
+                <li class="nav-item">
+                    <a href="staff.html" class="nav-link">Staff</a>
+                </li>
+                <li class="nav-item">
+                    <a href="contact.html" class="nav-link">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="web">
+        <a href="https://share.google/"><i class="fa-brands fa-facebook" style="color: #ffffff;"></i></a>
+        <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram" style="color: #ffffff;"></i></a>
+        <a href="https://wa.me/"><i class="fa-brands fa-whatsapp" style="color: #ffffff;"></i></a>
+        <a href="https://www.youtube.com/"><i class="fa-brands fa-youtube" style="color: #ffffff;"></i></a>
+        <a href="https://x.com/"><i class="fa-brands fa-x-twitter" style="color: #ffffff;"></i></a>
+    </div>
+
+    <!--Hero Section-->
+    <section class="hidden">
+        <div class="display">
+            <div class="world">
+                <h1>Academic Programs</h1>
+                <h2>Excellence Across All Disciplines</h2>
+            </div>
+            <div class="world2">
+                <p>From language arts to STEM, our comprehensive curriculum prepares students for college and beyond.</p>
+                <button id="registerBtn" class="register-btn">Register Now</button>
+                <button id="tourBtn" class="tour-btn">Schedule a Tour</button>
+            </div>
+        </div>
+    </section>
+
+    <!--Programs Section-->
+    <section class="hidden">
+        <div class="welcome">
+            <div class="topic">
+                <h2>Our Curriculum</h2>
+            </div>
+
+            <div class="pra1">
+                <p>St. Michael's Academy offers a rigorous, well-balanced curriculum designed to develop critical thinking, creativity, and character. Our courses challenge students to reach their full potential while fostering a love of learning.</p>
+            </div>
+
+            <div class="pra2">
+                <p>Core Academic Departments</p>
+            </div>
+
+            <div class="pra3">
+                <ul>
+                    <li>
+                        <span>English Language Arts:</span> Comprehensive instruction in reading, writing, speaking, and critical analysis. Students engage with literature, rhetoric, and composition.
+                    </li>
+
+                    <li>
+                        <span>Mathematics:</span> From foundational numeracy to advanced calculus and statistics. Our math program builds problem-solving skills and mathematical reasoning.
+                    </li>
+
+                    <li>
+                        <span>Science:</span> Biology, chemistry, physics, and environmental science. Hands-on labs, field studies, and research opportunities enhance learning.
+                    </li>
+
+                    <li>
+                        <span>Social Studies:</span> History, geography, civics, and world cultures. We explore human societies and develop global awareness.
+                    </li>
+
+                    <li>
+                        <span>World Languages:</span> Spanish, French, Mandarin, and Latin. Language instruction includes cultural immersion and practical communication skills.
+                    </li>
+
+                    <li>
+                        <span>Arts:</span> Visual arts, music, drama, and design. Creative expression is cultivated across multiple disciplines and grade levels.
+                    </li>
+
+                    <li>
+                        <span>Physical Education & Athletics:</span> Comprehensive PE program plus competitive and recreational sports options for all skill levels.
+                    </li>
+                </ul>
+            </div>
+
+            <div class="pra2">
+                <p>Advanced Learning Opportunities</p>
+            </div>
+
+            <div class="program-cards">
+                <div class="program-card">
+                    <h3>Advanced Placement</h3>
+                    <p>Students in Upper School can enroll in AP courses in subjects ranging from Biology to World History. AP classes prepare students for college-level work and nationally recognized examinations.</p>
+                </div>
+
+                <div class="program-card">
+                    <h3>Honors Courses</h3>
+                    <p>Accelerated courses for high-achieving students beginning in Middle School. Honors classes offer greater depth and complexity in core subjects.</p>
+                </div>
+
+                <div class="program-card">
+                    <h3>Independent Study</h3>
+                    <p>Advanced students have the opportunity to pursue independent research projects with faculty mentorship, exploring topics of personal interest at a deep level.</p>
+                </div>
+
+                <div class="program-card">
+                    <h3>Electives & Seminars</h3>
+                    <p>Wide variety of electives including robotics, digital media, entrepreneurship, creative writing, philosophy, and more.</p>
+                </div>
+            </div>
+
+            <div class="pra2">
+                <p>Learning Support</p>
+            </div>
+
+            <div class="pra1">
+                <p>We believe in supporting every learner. Our <span>Learning Specialists</span> provide individualized support for students with different learning styles. We offer tutoring, accommodations, and adaptive strategies to ensure all students can access the curriculum and succeed.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="hidden" id="ads">
+        <div id="registerModal" class="modal">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h2>Get Started Today</h2>
+                    <span class="close">&times;</span>
+                </div>
+                <div class="modal-body">
+                    <p class="modal-subtitle">Join St. Michael's Academy and transform your education</p>
+                    <form id="registerForm">
+                        <div class="form-group">
+                            <input type="text" id="studentName" name="studentName" placeholder="Student Name" required>
+                        </div>
+
+                        <div class="form-group">
+                            <input type="text" id="parentName" name="parentName" placeholder="Parent/Guardian Name" required>
+                        </div>
+
+                        <div class="form-group">
+                            <input type="email" id="email" name="email" placeholder="Email Address" required>
+                        </div>
+
+                        <div class="form-group">
+                            <input type="tel" id="phone" name="phone" placeholder="Phone Number" required>
+                        </div>
+
+                        <div class="form-group">
+                            <select id="grade" name="grade" required>
+                                <option value="">Select Grade Level</option>
+                                <option value="K">Kindergarten</option>
+                                <option value="1">1st Grade</option>
+                                <option value="2">2nd Grade</option>
+                                <option value="3">3rd Grade</option>
+                                <option value="4">4th Grade</option>
+                                <option value="5">5th Grade</option>
+                                <option value="6">6th Grade</option>
+                                <option value="7">7th Grade</option>
+                                <option value="8">8th Grade</option>
+                                <option value="9">9th Grade</option>
+                                <option value="10">10th Grade</option>
+                                <option value="11">11th Grade</option>
+                                <option value="12">12th Grade</option>
+                            </select>
+                        </div>
+
+                        <button type="submit" class="modal-btn">Get Started Now</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Tour Modal -->
+    <div id="tourModal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2>Schedule a Campus Tour</h2>
+                <span class="close tour-close">&times;</span>
+            </div>
+            <div class="modal-body">
+                <p class="modal-subtitle">Experience St. Michael's Academy in person and explore our world-class facilities</p>
+                <form id="tourForm">
+                    <div class="form-group">
+                        <input type="text" id="visitorName" name="visitorName" placeholder="Your Name" required>
+                    </div>
+
+                    <div class="form-group">
+                        <input type="email" id="visitorEmail" name="visitorEmail" placeholder="Email Address" required>
+                    </div>
+
+                    <div class="form-group">
+                        <input type="tel" id="visitorPhone" name="visitorPhone" placeholder="Phone Number" required>
+                    </div>
+
+                    <div class="form-group">
+                        <select id="tourDate" name="tourDate" required>
+                            <option value="">Select Preferred Date</option>
+                            <option value="Mon Morning">Monday - Morning</option>
+                            <option value="Mon Afternoon">Monday - Afternoon</option>
+                            <option value="Tue Morning">Tuesday - Morning</option>
+                            <option value="Tue Afternoon">Tuesday - Afternoon</option>
+                            <option value="Wed Morning">Wednesday - Morning</option>
+                            <option value="Wed Afternoon">Wednesday - Afternoon</option>
+                            <option value="Thu Morning">Thursday - Morning</option>
+                            <option value="Thu Afternoon">Thursday - Afternoon</option>
+                            <option value="Fri Morning">Friday - Morning</option>
+                            <option value="Fri Afternoon">Friday - Afternoon</option>
+                        </select>
+                    </div>
+
+                    <button type="submit" class="modal-btn">Schedule Tour</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <script src="index.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/js/all.min.js" integrity="sha512-6BTOlkauINO65nLhXhthZMtepgJSghyimIalb+crKRPhvhmsCdnIuGcVbR5/aQY2A+260iC1OPy1oCdB6pSSwQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script>
+        // Modal functionality
+        const modal = document.getElementById('registerModal');
+        const registerBtn = document.getElementById('registerBtn');
+        const closeBtn = document.querySelector('.close');
+        const registerForm = document.getElementById('registerForm');
+
+        // Open modal when button is clicked
+        registerBtn.onclick = function() {
+            modal.style.display = 'block';
+        }
+
+        // Close modal when close button is clicked
+        closeBtn.onclick = function() {
+            modal.style.display = 'none';
+        }
+
+        // Close modal when clicking outside the modal content
+        window.onclick = function(event) {
+            if (event.target == modal) {
+                modal.style.display = 'none';
+            }
+        }
+
+        // Handle form submission
+        registerForm.onsubmit = function(event) {
+            event.preventDefault();
+            alert('Thank you for registering! We will contact you soon.');
+            modal.style.display = 'none';
+            registerForm.reset();
+        }
+    </script>
+</body>
+</html>

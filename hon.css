@@ -610,6 +610,27 @@
     transform: translateY(-20px);
     backdrop-filter: blur(15px);
 }
+.visha{
+    text-decoration: none;
+    text-transform: none;
+
+}
+.diddi{
+    text-decoration: none;
+    background-color: antiquewhite;
+    border-radius: 10px;
+    padding: 6px;
+    align-items: center;
+    box-shadow: 10px rgba(255, 45, 41, 0.25);
+    transition: all 1s ease;
+    opacity: 0.35;
+}
+.diddi:hover{
+    text-decoration: none;
+    transform: translateY(-2px);
+    opacity: 1;
+
+}
 .world{
     width: 50%;
     color: #722f37;
@@ -713,12 +734,12 @@
     background-image: url(https://honeylandschools.ng/wp-content/uploads/2023/07/IMG_1200-1024x683.jpg);
     background-size: cover;
     background-position: center;
-    transition: ease 5s all;
+    transition: ease 6.1s all;
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
 }
 .grid1 .image:hover{
     background-size: cover;
-    transition: ease 0.10s all;
+    transition: ease 1s all;
    
     transform: scale(1.02);
 }
@@ -750,7 +771,7 @@
 }
 .content2{
     margin-left: 4%;
-    grid-column:  1/3;
+    grid-column:  1/5;
     grid-row:3 ;
     
     display: flex;
@@ -764,7 +785,7 @@
 }
 .content2 button{
     margin: 0%;
-    padding: 14px 32px;
+    padding: 14px 2px;
     background-color: #722f37;
     color: white;
     border: none;
@@ -1023,8 +1044,9 @@
     box-shadow: 0 4px 15px rgba(114, 47, 55, 0.08);
 }
 .down button{
+    align-items: center;
     width: 100%;
-    padding: 15px 30px;
+    padding: 20px 30px;
     background-color: #722f37;
     color: white;
     border: none;
@@ -1035,7 +1057,7 @@
     text-transform: uppercase;
     font-size: 14px;
     letter-spacing: 1px;
-    display: grid;
+    display: flex;
 }
 .down a{
      width: 100%;
@@ -1056,12 +1078,13 @@
         width: 80%;
     }
     .down{
+        text-decoration: none;
         flex-direction: column;
         width: 100%;
         gap: 7px;
     }
     .down button{
-        width: 70%;
+        width: 85%;
     }
     .down .but2{
         align-self: center; 
@@ -1611,6 +1634,10 @@ flex-direction: column;
     .contact-form {
         margin: 20px 0;
     }
+
+    .achieve2{
+        flex-direction: column;
+    }
 }
 
 /* Register Button */
@@ -1678,7 +1705,7 @@ flex-direction: column;
 }
 
 .tour-btn::before {
-    content: '';
+    content: ''; 
     position: absolute;
     top: 0;
     left: -100%;

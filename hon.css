@@ -56,7 +56,7 @@ body::before {
     background-size: cover;
     background-attachment: fixed;
     padding: 0;
-    position: scroll;
+    position: relative;
     top: 0;
     z-index: 1000;
     box-shadow: 0 8px 32px rgba(114, 47, 55, 0.12);
@@ -213,6 +213,8 @@ body::before {
 }
 
 .hamburger span {
+    animation: slideIn 8s ease;
+    display: block;
     width: 25px;
     height: 3px;
     background-color: #ecf0f1;
@@ -236,8 +238,7 @@ body::before {
 /* Responsive Design */
 @media screen and (max-width: 468px) {
     .navbar {
-        background-image: url(file:///C:/Users/user/Documents/sublime/starvron.html/Secure%20Registration%20Form_files/original-573311aeb45bd418cb10b246de9a5fe7.webp);
-        background-color: sandybrown;
+        background-color: firebrick;
     }
     .bttn{
         display: flex;
@@ -245,7 +246,9 @@ body::before {
     }
 
     .hamburger {
+        align-items: center;
         display: flex;
+        
     }
 
     .nav-menu {
@@ -310,10 +313,7 @@ body::before {
         padding: 0 10px;
     }
 
-    .navbar-logo img {
-       margin-left: 10%;
-        width: 50%;
-    }
+    .
 
     .hamburger span {
         width: 20px;
@@ -341,11 +341,13 @@ body::before {
 
 /* SEARCH BUTTON */
 .search-btn {
+    animation: fadeIn 20s ease ;
   background: none;
   border: none;
   font-size: 20px;
   cursor: pointer;
   color: black;
+  margin-inline: 25px;
 }
 
 /* SEARCH MODAL */
@@ -377,7 +379,7 @@ body::before {
    width: 100%;
   max-width: 1000px;
   padding: 40px;
-  position: scroll;
+  position: absolute;
 
   transform: scale(0.9);
   transition: 0.3s ease;
@@ -394,7 +396,7 @@ body::before {
   font-size: 20px;
   padding: 10px 10px;
   border-radius: 10px;
-  border: 2px solid #6b3e26;
+  border: 3px solid firebrick;
   outline: none;
 }
 

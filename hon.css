@@ -246,7 +246,7 @@ body::before {
     }
 
     .hamburger {
-        align-items: center;
+     margin-left: 10px;
         display: flex;
         
     }
@@ -256,7 +256,7 @@ body::before {
         left: -100%;
         top: 70px;
         flex-direction: column;
-        background-color: brown;
+        background-color: goldenrod;
         width: 100%;
         text-align: center;
         transition: 0.3s;
@@ -276,7 +276,7 @@ body::before {
     .nav-link {
         font-size: 18px;
         display: block;
-        color: red;
+        color: black;
     }
 
     .dropdown-menu {

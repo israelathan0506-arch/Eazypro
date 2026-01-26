@@ -31,11 +31,11 @@ body::before {
 /* Navbar */
 .navbar {
    animation: slideIn 5s ease;
-    backdrop-filter: blur(10px);
+    backdrop-filter: blur(50px);
     background-size: cover;
     background-attachment: fixed;
     padding: 0;
-    position: sticky;
+    position: relative;
     top: 0;
     z-index: 1000;
     box-shadow: 0 8px 32px rgba(114, 47, 55, 0.12);
@@ -775,13 +775,23 @@ body::before {
 }
 
 /*web*/
+
+
 .web{
- position: fixed;
+
+
+
+
+
+
+
+    margin: 1px;
+ position: relative;
   top: 50%;
   left: 0;
   display: flex;
   gap: 10px;
-flex-direction: column;
+flex-direction: row;
   transform: translateY(-50%);
   background-color: #722f37;
   padding: 10px;
